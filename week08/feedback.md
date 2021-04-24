@@ -1,0 +1,1 @@
+If you notice that after the transposition, you don't have any column names.  The first row of "data" is actually the column names.  Before transposing, if you set the "index" of the dataframe to be the first column, then transposing the data will pivot that index up to the column names in the output.  For future refrence!
